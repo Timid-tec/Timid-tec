@@ -20,4 +20,4 @@
 
   
   
-  [![Spotify](https://spotify-now-playing-eight-beta.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/Timid)
+  [![Spotify](https://spotify-now-playing-eight-beta.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/c8upk3m2ylzlu4mndwhd0u9og)
