@@ -8,7 +8,7 @@
   
 <img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
 
-<p align="center" width="150px">Discord: Timid#1001</p>
+<p align="center" width="160px">Discord: Timid#1001</p>
 
 ### Programming Languages 🌐
 
