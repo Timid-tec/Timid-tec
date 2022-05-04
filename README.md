@@ -8,8 +8,6 @@
   
 <img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
 
-<p align="center" width="160px">Discord: Timid#1001</p>
-
 ### Programming Languages 🌐
 
 | [<img src="https://dreae.gallerycdn.vsassets.io/extensions/dreae/sourcepawn-vscode/0.1.4/1515276846898/Microsoft.VisualStudio.Services.Icons.Default" alt="jQuery" width="24">](https://sourcemod.net/) | [<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="JavaScript" width="24">](https://www.javascript.com/) | [<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" alt="Java" width="24">](https://java.com/en/)
