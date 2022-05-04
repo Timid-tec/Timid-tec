@@ -1,7 +1,9 @@
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?size=21&color=F7E7E5&background=F8000000&lines=Computer+Technician+Student;2022+Highschool+Graduate;Always+wanting+to+learn+new+things&center=true&width=500&height=50"></a>
    </p>
+   
 ****
+
  <p align="center"> <summary><b>🛠️ My Skills</b></summary>
   </p>
   
