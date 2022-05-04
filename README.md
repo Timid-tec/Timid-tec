@@ -2,11 +2,9 @@
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Computer+Technican+Student;Competitive+Programmer;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
 </p>
 
-Hola, Who am I? A High-School student learnig the life of a devloper!
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/KevinPatel04/KevinPatel04/master/Hi.gif" width="30px">, I am Kevin Patel </h1>
 
-### 🦅 I’m currently working on
-
-A small CS:GO community server called [Moonglow](https://discord.com/invite/Y9t9tA3)!
+<p align="center" width="150px"> I have just kickstarted my career as a software developer intern after completing my undergraduation in the year 2021. <br>Soon, I would be joining New York University for Masters' of Computer Science program.</p>
   
 <img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
 ### 📫 How to reach me
