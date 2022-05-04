@@ -6,9 +6,12 @@
 
 <p align="center" width="150px">I have just started my college year as a Computer Technician. I plan on furthering my opportunities in life to fully understand the coding industry and plan and learn more shortly.</p>
 
+<!-- Nothing weird to see here -->
 <p align="center">
-  <!-- He came up with the idea of HOW to show React components as an img on a README.md and the now playing component! -->
-  <i>inspired by <a href="https://github.com/natemoo-re">natemoo-re</a></i>
+  <a href="https://andyruwruw.vercel.app/api/now-playing?open">
+    <!-- Music bars move to the beat and are colored based on the track's happiness, danceability and energy! -->
+    <img src="https://andyruwruw.vercel.app/api/now-playing">
+  </a>
 </p>
   
 <img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
