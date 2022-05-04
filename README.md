@@ -1,7 +1,5 @@
-<p align="center">
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=21&color=F7E7E5&background=F8000000&lines=Computer+Technician+Student;2022+Highschool+Graduate;Always+wanting+to+learn+new+things)](https://git.io/typing-svg)
-</p>
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=21&color=F7E7E5&background=F8000000&lines=Computer+Technician+Student;2022+Highschool+Graduate;Always+wanting+to+learn+new+things)](https://git.io/typing-svg)
 ****
  <p align="center"> <summary><b>🛠️ My Skills</b></summary>
   </p>
