@@ -2,6 +2,7 @@
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?size=21&color=F7E7E5&background=F8000000&lines=Computer+Technician+Student;2022+Highschool+Graduate;Always+wanting+to+learn+new+things&center=true&width=500&height=50"></a>
    </p>
   
+   [![Spotify](https://spotify-now-playing-eight-beta.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/c8upk3m2ylzlu4mndwhd0u9og)
    
 ****
 
@@ -20,4 +21,4 @@
 
   
   
-  [![Spotify](https://spotify-now-playing-eight-beta.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/c8upk3m2ylzlu4mndwhd0u9og)
+
