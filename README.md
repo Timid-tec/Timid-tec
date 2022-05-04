@@ -1,6 +1,6 @@
-![Hello I'm Tony Kagete](hello.gif)
-Mixed biz & eng background, dabbled mostly in Product Management both technical & commercial.
-Fascinated with great product outlooks playing vital roles in practical aspects of daily life. 
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Computer+Technican+Student;Competitive+Programmer;;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
+</p>
 
 ****
 
