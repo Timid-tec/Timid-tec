@@ -9,9 +9,7 @@
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
   
 ****
-
-## 📊 Github Stats
-
+  <summary><b>💻 GitHub Profile Stats</b></summary>
   <br/>
   <p align="center">
     <a href="https://github.com/Timid-tec/github-readme-stats"><img alt="Timid-tec Github Stats" src="https://github-readme-stats.vercel.app/api?username=Timid-tec&show_icons=true&count_private=true&theme=algolia" height="192px"/></a>
