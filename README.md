@@ -6,8 +6,8 @@ Hola, Who am I? A High-School student learnig the life of a devloper!
 
 ### 🦅 I’m currently working on
 
-A small CS:GO community server called [Moonglow](https://discord.com/invite/Y9t9tA3)! <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">&nbsp;***My working tools...***
-<p align="left">
+A small CS:GO community server called [Moonglow](https://discord.com/invite/Y9t9tA3)!
+  
 <img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
 ### 📫 How to reach me
 
