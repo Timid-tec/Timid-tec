@@ -2,11 +2,6 @@
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Computer+Technican+Student;Competitive+Programmer;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
 </p>
 __________________________________________________________________________________________________________
-<h3 align="left">Skills:</h3>
-
-<p align="left"> <a href="https://www.python.org" target="_blank"> <img src="media/icons8-python.svg" alt="python" width="40" height="40"/> </a>   <a href="https://www.mysql.com/" target="_blank"> <img src="media/icons8-sql-96.svg" alt="mysql" width="40" height="40"/> </a>   <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank"> <img src="media/icons8-microsoft-excel.svg" alt="excel" width="40" height="40"/> </a>   <a href="https://trello.com/" target="_blank"> <img src="media/icons8-trello.svg" alt="trello" width="40" height="40"/>   <a href="https://obsidian.md/" target="_blank"> <img src="media/icons8-mind-map-96.svg" alt="mind-mapping" width="40" height="40"/></p> 
-  
-__________________________________________________________________________________________________________
 
 <!-- Nothing weird to see here -->
 <p align="center">
