@@ -1,8 +1,7 @@
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?size=21&color=F7E7E5&background=F8000000&lines=Computer+Technician+Student;2022+Highschool+Graduate;Always+wanting+to+learn+new+things&center=true&width=500&height=50"></a>
    </p>
-   
-[![Spotify](https://spotify-now-playing-eight-beta.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/Timid)
+  
    
 ****
 
@@ -18,3 +17,7 @@
   <p align="center">
     <a href="https://github.com/Timid-tec/github-readme-stats"><img alt="Timid-tec Github Stats" src="https://github-readme-stats.vercel.app/api?username=Timid-tec&show_icons=true&count_private=true&theme=dark" height="192px"/></a>
 <br/>
+
+  
+  
+  [![Spotify](https://spotify-now-playing-eight-beta.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/Timid)
