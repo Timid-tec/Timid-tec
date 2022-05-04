@@ -12,7 +12,7 @@ A small CS:GO community server called [Moonglow](https://discord.com/invite/Y9t9
 - Keybase: https://keybase.io/timid
 
 <div align="center">
-  <a href="https://open.spotify.com/user/6s6pbtefezpookh8gwnkko15v">
+  <a href="https://open.spotify.com/user/c8upk3m2ylzlu4mndwhd0u9og">
     <img src="https://readme-spotify-tingz.vercel.app/api/now-playing">
   </a>
 </div>
