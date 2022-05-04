@@ -7,7 +7,7 @@
  <p align="center"> <summary><b>🛠️ My Skills</b></summary>
   </p>
   
-<p align="left"> <a href="https://www.python.org" target="_blank"> <img src="media/icons8-python.svg" alt="python" width="40" height="40"/>
+<p align="left"> <a href="https://www.python.org" target="_blank"> <img src="media/icons8-python.svg" alt="python" width="40" height="40"/> </p>
 
 ****
   <summary><b>💻 GitHub Profile Stats</b></summary>
