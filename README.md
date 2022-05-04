@@ -7,10 +7,8 @@
 <p align="center" width="150px">I have just started my college year as a Computer Technician. I plan on furthering my opportunities in life to fully understand the coding industry and plan and learn more shortly.</p>
   
 <img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
-### 📫 How to reach me
 
-- Discord: Timid#1001 
-- Keybase: https://keybase.io/timid
+<p align="center" width="150px">Discord: Timid#1001, Keybase: https://keybase.io/timid</p>
 
 ### Programming Languages 🌐
 
