@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">Timid-tec — server-side developer and CS:GO operator</title>
+  <desc id="desc">An animated black and white server console interface showing the Timid-tec name and an online SourceMod plugin stack.</desc>
+
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+    </pattern>
+    <clipPath id="terminal-clip">
+      <rect x="506" y="58" width="342" height="177" rx="2"/>
+    </clipPath>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="300" fill="#030303"/>
+  <rect width="900" height="300" fill="url(#grid)"/>
+  <rect x="12" y="12" width="876" height="276" rx="4" fill="none" stroke="#ffffff" stroke-width="1"/>
+  <path d="M28 12h54M12 28v54M818 288h54M888 218v54" stroke="#ffffff" stroke-width="3"/>
+
+  <g font-family="Consolas, 'Courier New', monospace" fill="#ffffff">
+    <text x="45" y="48" font-size="11" letter-spacing="4" opacity="0.62">PROFILE // SERVER-SIDE</text>
+    <text x="42" y="116" font-size="62" font-weight="700" letter-spacing="2">TIMID</text>
+    <text x="42" y="174" font-size="62" font-weight="700" letter-spacing="2">—TEC</text>
+    <line x1="46" y1="193" x2="440" y2="193" stroke="#ffffff" stroke-width="1" opacity="0.42"/>
+    <text x="45" y="218" font-size="12" letter-spacing="2">PLUGIN DEVELOPER</text>
+    <text x="45" y="239" font-size="12" letter-spacing="2" opacity="0.58">CS:GO SERVER OPERATOR</text>
+  </g>
+
+  <g>
+    <rect x="493" y="35" width="362" height="210" rx="5" fill="#050505" stroke="#ffffff" stroke-width="1"/>
+    <line x1="493" y1="58" x2="855" y2="58" stroke="#ffffff" stroke-width="1" opacity="0.7"/>
+    <circle cx="509" cy="47" r="3" fill="#ffffff"/>
+    <circle cx="522" cy="47" r="3" fill="#ffffff" opacity="0.55"/>
+    <circle cx="535" cy="47" r="3" fill="#ffffff" opacity="0.2"/>
+    <text x="838" y="50" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#ffffff" opacity="0.55">TTY-09</text>
+
+    <g clip-path="url(#terminal-clip)" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#ffffff">
+      <text x="511" y="82" opacity="0.55">timid@server:~$ ./profile --boot</text>
+
+      <g opacity="1">
+        <text x="511" y="108">[ OK ] metamod.source</text>
+        <animate attributeName="opacity" values="1;0.35;1;1" keyTimes="0;0.12;0.18;1" dur="4s" repeatCount="indefinite"/>
+      </g>
+      <g opacity="1">
+        <text x="511" y="132">[ OK ] sourcemod.runtime</text>
+        <animate attributeName="opacity" values="1;1;0.35;1" keyTimes="0;0.25;0.31;1" dur="4s" repeatCount="indefinite"/>
+      </g>
+      <g opacity="1">
+        <text x="511" y="156">[ 09 ] public.plugins</text>
+        <animate attributeName="opacity" values="1;1;0.35;1" keyTimes="0;0.38;0.44;1" dur="4s" repeatCount="indefinite"/>
+      </g>
+      <g opacity="1">
+        <text x="511" y="180">[ LIVE ] csgo.server</text>
+        <animate attributeName="opacity" values="1;1;0.35;1" keyTimes="0;0.51;0.57;1" dur="4s" repeatCount="indefinite"/>
+      </g>
+      <g opacity="1">
+        <text x="511" y="215">status: ONLINE</text>
+        <rect x="621" y="204" width="8" height="13" fill="#ffffff">
+          <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.48;0.5;1" dur="1s" repeatCount="indefinite"/>
+        </rect>
+        <animate attributeName="opacity" values="1;1;0.35;1" keyTimes="0;0.64;0.7;1" dur="4s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+
+  <g opacity="0.9">
+    <rect x="45" y="262" width="3" height="12" fill="#ffffff"/>
+    <rect x="52" y="258" width="1" height="16" fill="#ffffff"/>
+    <rect x="57" y="264" width="5" height="10" fill="#ffffff"/>
+    <rect x="66" y="256" width="2" height="18" fill="#ffffff"/>
+    <rect x="72" y="260" width="7" height="14" fill="#ffffff"/>
+    <rect x="83" y="257" width="2" height="17" fill="#ffffff"/>
+    <rect x="89" y="263" width="4" height="11" fill="#ffffff"/>
+    <rect x="97" y="256" width="1" height="18" fill="#ffffff"/>
+    <rect x="102" y="259" width="6" height="15" fill="#ffffff"/>
+  </g>
+  <text x="122" y="272" font-family="Consolas, 'Courier New', monospace" font-size="9" letter-spacing="2" fill="#ffffff" opacity="0.48">SOURCEPAWN::SOURCEMOD::CSGO</text>
+  <text x="855" y="272" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="9" letter-spacing="2" fill="#ffffff" opacity="0.48">BUILD / DEPLOY / OBSERVE</text>
+
+  <rect x="12" y="12" width="876" height="3" fill="url(#fade)" opacity="0.7">
+    <animate attributeName="y" values="12;282;12" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>

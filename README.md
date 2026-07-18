@@ -1,95 +1,109 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:050505,55:1a0b20,100:ff1744&text=TIMID-TEC&fontColor=ffffff&fontSize=54&fontAlignY=36&animation=fadeIn&desc=CS%3AGO%20SERVER%20OPERATOR%20%2F%2F%20SOURCEMOD%20PLUGIN%20DEVELOPER&descAlignY=58&descSize=15" alt="Timid-tec header" />
-
 <a href="https://github.com/Timid-tec">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=750&color=FF1744&center=true&vCenter=true&repeat=true&width=720&height=55&lines=building+plugins+for+the+servers+that+never+sleep;breaking+problems+before+they+break+the+server;SourcePawn+%2B+SourceMod+%2B+CS%3AGO;access+granted+%2F%2F+welcome+to+the+backend" alt="Animated introduction" />
+  <img src="./media/timid-console.svg" width="100%" alt="Timid-tec — SourceMod plugin developer and CS:GO server operator" />
 </a>
 
-![SourceMod](https://img.shields.io/badge/SourceMod-ONLINE-ff1744?style=for-the-badge&labelColor=0d1117)
-![CS:GO](https://img.shields.io/badge/CS%3AGO-SERVER%20OPERATOR-00e5ff?style=for-the-badge&labelColor=0d1117&logo=counterstrike)
-![Plugins](https://img.shields.io/badge/PLUGINS-LOADED-bc13fe?style=for-the-badge&labelColor=0d1117)
+<sub><code>SERVER-SIDE SOFTWARE</code> &nbsp;/&nbsp; <code>COMMUNITY INFRASTRUCTURE</code> &nbsp;/&nbsp; <code>CS:GO</code></sub>
 
 </div>
 
-```console
-root@timid-tec:~$ whoami
-SourceMod developer. CS:GO server operator. Builder of tools that survive live traffic.
-```
+## `01 / IDENTITY`
 
-## `// OPERATOR PROFILE`
+I build **SourceMod plugins for Counter-Strike: Global Offensive** and host CS:GO servers on the side.
 
-I build **SourceMod plugins for CS:GO** and host game servers on the side. I work where code meets a live community: gameplay systems, admin tooling, anti-cheat research, databases, deployment packages, and the inevitable late-night debugging session.
+That puts me on both sides of the console: I write the code, then run it against real players, strange configs, full servers, bad actors, database failures, and every edge case that only appears at 2 AM.
 
-My goal is simple: make server software that is useful, configurable, documented, and dependable when real players start doing things no test case predicted.
+> A plugin is not finished when it compiles. It is finished when it survives the server.
 
-- 🔻 Writing and maintaining CS:GO plugins in **SourcePawn**
-- 🔻 Running and tuning **MetaMod:Source + SourceMod** server stacks
-- 🔻 Building moderation, reporting, protection, menu, and gameplay systems
-- 🔻 Working with **SQLite, MySQL, Discord webhooks, configs, logs, and reproducible builds**
-- 🔻 Keeping classic CS:GO community servers alive—because some games are worth preserving
+| I BUILD | I OPERATE | I CARE ABOUT |
+| :--- | :--- | :--- |
+| SourcePawn plugins | CS:GO community servers | Stability under live traffic |
+| Admin and player systems | MetaMod + SourceMod stacks | Clear configuration |
+| Anti-cheat diagnostics | Databases and webhooks | Useful documentation |
 
-## `// PLUGIN ARSENAL`
-
-| Project | What it does |
-| :--- | :--- |
-| **[Eclipse Anti-Cheat](https://github.com/Timid-tec/Eclipse-Anti-Cheat)** | A server-side, low-false-positive anti-cheat with evidence chains, live admin diagnostics, spectator HUDs, and private forensic overlays. |
-| **[Advanced Reports](https://github.com/Timid-tec/Advanced-Reports)** | In-game player reports backed by SQLite or MySQL, with admin actions and optional Discord webhook alerts. |
-| **[Advanced Spawn Protection](https://github.com/Timid-tec/Advanced-Spawn-Protection)** | Configurable spawn immunity with a polished HUD countdown, attack cancellation, and optional player-model effects. |
-| **[Quick Command Menu](https://github.com/Timid-tec/Quick-Command-Menu)** | A lightweight, config-driven in-game menu for commands, private messages, and fast server navigation. |
-| **[ClanTag Checker](https://github.com/Timid-tec/ClanTag-Checker)** | Detects configured Steam clan tags and applies the server's chosen replacement tag. |
-| **[Disable Radar](https://github.com/Timid-tec/Disable-Radar)** | Gives server operators a simple switch for controlling the CS:GO radar. |
-| **[Random Health](https://github.com/Timid-tec/Random-Health)** | Adds configurable random-health behavior for custom server modes. |
-| **[Weapon Restrict](https://github.com/Timid-tec/Weapon-Restrict)** | Provides server-side weapon restriction for controlled game modes. |
-| **[Weapon Restrict Map](https://github.com/Timid-tec/Weapon-Restrict-Map)** | Applies weapon restrictions with map-aware handling and removes the actual equipped restricted item. |
-
-## `// SERVER ROOM — AFTER DARK`
-
-Hosting a CS:GO server is more than launching `srcds`. On the side, I handle the full loop: configure the game, load the plugin stack, shape the player experience, watch performance, investigate bad behavior, fix what breaks, and ship the next version.
+## `02 / REQUEST PATH`
 
 ```text
-PLAYER CONNECTS
-      │
-      ├── gameplay rules + spawn protection
-      ├── command menus + community features
-      ├── reports + administrator response
-      ├── anti-cheat evidence + diagnostics
-      └── logs, storage, configs, updates
-                         ↓
-                 SERVER STAYS ONLINE
+ PLAYER
+   └── CS:GO SERVER
+        └── METAMOD:SOURCE
+             └── SOURCEMOD
+                  └── PLUGIN
+                       ├── gameplay response
+                       ├── administrator action
+                       ├── SQLite / MySQL
+                       ├── Discord webhook
+                       └── logs + evidence
 ```
 
-The work behind the scenes includes:
+I work across that entire path: gameplay rules, HUDs, menus, commands, moderation workflows, storage, diagnostics, packaging, deployment, and the inevitable post-deploy fix.
 
-- plugin compilation, packaging, configuration, and hot reloads;
-- player-facing HUDs, menus, commands, and gameplay rules;
-- admin workflows, report storage, webhooks, and moderation tools;
-- performance-aware detection running on live server ticks;
-- documentation that makes every release easier to install and operate.
+## `03 / PLUGIN RACK`
 
-## `// TOOLCHAIN`
+Nine public modules. Each one exists because a live server needed something sharper.
+
+| SLOT | MODULE | ROLE |
+| :--: | :--- | :--- |
+| `00` | **[Eclipse Anti-Cheat](https://github.com/Timid-tec/Eclipse-Anti-Cheat)** | Low-false-positive, server-side detection with evidence chains, live admin diagnostics, spectator HUDs, and private forensic overlays. |
+| `01` | **[Advanced Reports](https://github.com/Timid-tec/Advanced-Reports)** | In-game player reports with SQLite or MySQL storage, admin actions, cooldowns, and optional Discord alerts. |
+| `02` | **[Advanced Spawn Protection](https://github.com/Timid-tec/Advanced-Spawn-Protection)** | Configurable spawn immunity with a layered countdown HUD, attack cancellation, warnings, and optional model effects. |
+| `03` | **[Quick Command Menu](https://github.com/Timid-tec/Quick-Command-Menu)** | A config-driven in-game menu for commands, private chat output, safe reloads, and quick server navigation. |
+| `04` | **[ClanTag Checker](https://github.com/Timid-tec/ClanTag-Checker)** | Detects configured Steam clan tags and applies the server's chosen replacement tag. |
+| `05` | **[Disable Radar](https://github.com/Timid-tec/Disable-Radar)** | Gives operators a simple server-side control for the CS:GO radar. |
+| `06` | **[Random Health](https://github.com/Timid-tec/Random-Health)** | Adds configurable randomized health behavior for custom game modes. |
+| `07` | **[Weapon Restrict](https://github.com/Timid-tec/Weapon-Restrict)** | Provides server-side weapon restriction for controlled gameplay. |
+| `08` | **[Weapon Restrict Map](https://github.com/Timid-tec/Weapon-Restrict-Map)** | Adds map-aware weapon restrictions and removes the actual equipped restricted item. |
+
+## `04 / FLAGSHIP SYSTEM — ECLIPSE`
+
+**Eclipse** is the project where server operations and plugin engineering collide hardest. It is built to gather evidence instead of reacting to a single noisy signal.
+
+```text
+COMMAND TICKS ──> DETECTOR CHAINS ──> SUSPICION SCORE ──> ADMIN EVIDENCE
+      │                  │                    │                   │
+   observe          require repeats       apply policy       inspect live
+```
+
+It watches aim, anti-aim, command integrity, networking, movement, and firing behavior while accounting for latency and combat-surf physics. Admins get live status, detailed evidence, spectator diagnostics, and private forensic tools—the information needed to make a decision, not just a red light.
+
+## `05 / THE NIGHT SHIFT`
+
+Running servers on the side keeps the work honest. The loop looks like this:
+
+```text
+BUILD  >  COMPILE  >  PACKAGE  >  DEPLOY  >  OBSERVE  >  PATCH  >  DOCUMENT
+  ^                                                                         |
+  └─────────────────────────────────────────────────────────────────────────┘
+```
+
+- compile and package SourcePawn plugins for repeatable installation;
+- tune server configs and reload systems without unnecessary downtime;
+- trace player reports, logs, database state, and detector evidence;
+- protect the hot path when logic runs every command tick;
+- turn the fix into documentation so the next operator does not have to guess.
+
+<details>
+<summary><code>open operator.log</code></summary>
+<br />
+
+The part I enjoy most is making invisible infrastructure feel solid. Players should notice the experience—not the work keeping it together. Admins should have the right controls when something goes wrong. Operators should be able to understand a plugin without reverse-engineering it first.
+
+</details>
+
+## `06 / TOOLCHAIN`
 
 <div align="center">
 
-![SourcePawn](https://img.shields.io/badge/SourcePawn-FFB000?style=for-the-badge&logoColor=black)
-![SourceMod](https://img.shields.io/badge/SourceMod-FF1744?style=for-the-badge&logoColor=white)
-![CS:GO](https://img.shields.io/badge/Counter--Strike%3A_GO-0D1117?style=for-the-badge&logo=counterstrike&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=00E5FF)
-![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=for-the-badge&logo=sqlite&logoColor=00E5FF)
-![PowerShell](https://img.shields.io/badge/PowerShell-0D1117?style=for-the-badge&logo=powershell&logoColor=BC13FE)
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=FFD43B)
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=FF1744)
-
-</div>
-
-## `// SIGNALS`
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Timid-tec&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ff1744&icon_color=00e5ff&text_color=c9d1d9&ring_color=bc13fe" alt="Timid-tec GitHub statistics" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Timid-tec&layout=compact&hide_border=true&bg_color=0d1117&title_color=ff1744&text_color=c9d1d9" alt="Timid-tec most-used languages" />
-
-[![GitHub](https://img.shields.io/badge/ENTER_THE_REPOSITORIES-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Timid-tec?tab=repositories)
+![SourcePawn](https://img.shields.io/badge/SOURCEPAWN-000000?style=for-the-badge&logoColor=ffffff)
+![SourceMod](https://img.shields.io/badge/SOURCEMOD-000000?style=for-the-badge&logoColor=ffffff)
+![MetaMod](https://img.shields.io/badge/METAMOD%3ASOURCE-000000?style=for-the-badge&logoColor=ffffff)
+![CS:GO](https://img.shields.io/badge/COUNTER--STRIKE%3A_GO-000000?style=for-the-badge&logo=counterstrike&logoColor=ffffff)
+![MySQL](https://img.shields.io/badge/MYSQL-000000?style=for-the-badge&logo=mysql&logoColor=ffffff)
+![SQLite](https://img.shields.io/badge/SQLITE-000000?style=for-the-badge&logo=sqlite&logoColor=ffffff)
+![PowerShell](https://img.shields.io/badge/POWERSHELL-000000?style=for-the-badge&logo=powershell&logoColor=ffffff)
+![Python](https://img.shields.io/badge/PYTHON-000000?style=for-the-badge&logo=python&logoColor=ffffff)
+![Git](https://img.shields.io/badge/GIT-000000?style=for-the-badge&logo=git&logoColor=ffffff)
 
 </div>
 
@@ -97,10 +111,11 @@ The work behind the scenes includes:
 
 <div align="center">
 
-`[ BUILD. DEPLOY. MONITOR. IMPROVE. ]`
+[![Browse repositories](https://img.shields.io/badge/%5B_BROWSE_ALL_REPOSITORIES_%5D-000000?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/Timid-tec?tab=repositories)
 
-<sub>Still learning. Still shipping. Still keeping the server online.</sub>
+<br />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:ff1744,45:1a0b20,100:050505" alt="Footer" />
+<code>STATUS: ONLINE</code><br />
+<sub>Keep the server sharp. Keep the evidence clear. Keep the old game alive.</sub>
 
 </div>
